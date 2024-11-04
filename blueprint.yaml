@@ -12,6 +12,7 @@ integrations: [ "edge-impulse" ]
 hardwareDependencies:
   - name: Photon 2, Boron, M-SoM
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+    tags: [ "P2", "Photon 2", "Boron" ]
 description: |
   The Running Faucet Detection solution provides a reference for detecting if a faucet is running, using Edge Impulse's machine learning capabilities. This app is designed to be deployed on Particle devices, such as the Photon 2, Boron, and M-SoM, and uses sensors to monitor and classify water flow patterns. By leveraging Edge Impulse, this solution can detect the unique acoustic or vibration signatures associated with a running faucet, enabling users to identify water usage and detect potential leaks.
 
