@@ -1,11 +1,11 @@
 id: edge-impulse/running-faucet-detection
 category: solution
 icon: edgeimpulse.png
-gitrepo: https://github.com/particle-iot/blueprint-hello-world
+gitrepo: https://github.com/particle-iot/blueprint-running-faucet-detection
 name: "Running Faucet Detection"
 shortDescription: Reference solution for detecting if a faucet is running
 version: 1.0.0
-models: []
+models: ["YoloV8"]
 language: [ "Particle Wiring" ]
 cloudServices: []
 integrations: [ "edge-impulse" ]
