@@ -1,6 +1,10 @@
 id: edge-impulse/running-faucet-detection
-category: solution
-icon: edgeimpulse.png
+slug: edge-impulse-running-faucet-detection
+type: solution
+category: "AI and machine learning"
+expertiseLevel: ""
+tags: ["YoloV8"]
+icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-running-faucet-detection
 name: "Running faucet detection"
 shortDescription: Reference solution for detecting if a faucet is running
@@ -8,11 +12,17 @@ version: 1.0.0
 models: ["YoloV8"]
 language: [ "Particle Wiring" ]
 cloudServices: []
-integrations: [ "edge-impulse" ]
+integrations:
+  - name: "edge-impulse"
+    icon: assets/edgeimpulse.png
+supportedDevices:
+  - name: P2
+  - name: Photon 2
+  - name: Boron
 hardwareDependencies:
-  - name: Photon 2, Boron, M-SoM
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "P2", "Photon 2", "Boron" ]
+  - name: Supported device
+introduction: |
+  This solution provides a comprehensive approach to monitoring water usage, helping users conserve water and reduce waste by detecting unintended water flow.
 description: |
   The Running Faucet Detection solution provides a reference for detecting if a faucet is running, using Edge Impulse's machine learning capabilities. This app is designed to be deployed on Particle devices, such as the Photon 2, Boron, and M-SoM, and uses sensors to monitor and classify water flow patterns. By leveraging Edge Impulse, this solution can detect the unique acoustic or vibration signatures associated with a running faucet, enabling users to identify water usage and detect potential leaks.
 
@@ -20,5 +30,5 @@ description: |
   - Utilizes Edge Impulse's machine learning platform to train a model for identifying running water sounds or vibrations.
   - Compatible with Particle devices, allowing seamless deployment and edge processing.
   - Ideal for applications in water conservation, leak detection, and smart home automation.
-  
-  This solution provides a comprehensive approach to monitoring water usage, helping users conserve water and reduce waste by detecting unintended water flow.
+additionalResources:
+
