@@ -1,9 +1,8 @@
-id: edge-impulse/running-faucet-detection
 slug: edge-impulse-running-faucet-detection
 type: solution
 category: "AI and machine learning"
-expertiseLevel: ""
-tags: ["YoloV8"]
+expertiseLevel: "intermediate"
+tags: ["audio", "monitoring", "AI", "ML"]
 icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-running-faucet-detection
 name: "Running faucet detection"
