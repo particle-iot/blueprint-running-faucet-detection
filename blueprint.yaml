@@ -1,9 +1,9 @@
 slug: edge-impulse-running-faucet-detection
-type: solution
+type: Solution
 category: "AI and machine learning"
-expertiseLevel: "intermediate"
-tags: ["audio", "monitoring", "AI", "ML"]
-icon: assets/edgeimpulse.png
+expertiseLevel: "Intermediate"
+tags: ["Audio", "Monitoring", "AI", "ML"]
+icon: assets/running-faucet-detection.svg
 gitrepo: https://github.com/particle-iot/blueprint-running-faucet-detection
 name: "Running faucet detection"
 shortDescription: Reference solution for detecting if a faucet is running
@@ -13,7 +13,7 @@ language: [ "Particle Wiring" ]
 cloudServices: []
 integrations:
   - name: "edge-impulse"
-    icon: assets/edgeimpulse.png
+    icon: assets/edge-impulse.svg
 supportedDevices:
   - name: P2
   - name: Photon 2
