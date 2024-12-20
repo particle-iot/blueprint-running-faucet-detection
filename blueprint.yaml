@@ -20,6 +20,7 @@ supportedDevices:
   - name: Boron
 hardwareDependencies:
   - name: Supported device
+  - name: Acoustic or vibration sensor
 introduction: |
   This solution provides a comprehensive approach to monitoring water usage, helping users conserve water and reduce waste by detecting unintended water flow.
 description: |
