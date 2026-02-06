@@ -3,7 +3,7 @@ type: Solution
 category: "AI and machine learning"
 expertiseLevel: "Intermediate"
 tags: ["AI/ML", "Sensors"]
-icon: assets/running-faucet-detection.svg
+icon: assets/faucet.svg
 gitrepo: https://github.com/particle-iot/blueprint-running-faucet-detection
 name: "Running faucet detection"
 shortDescription: Reference solution for detecting if a faucet is running
